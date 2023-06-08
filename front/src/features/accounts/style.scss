@@ -1,0 +1,25 @@
+.account-content-wrapper {
+  .link-button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+
+  img {
+    &.link {
+      width: 36px;
+      height: auto;
+    }
+  }
+}
+
+.AccountCard {
+  margin: 2rem auto;
+}
+
+@media screen and (max-width: 660px) {
+  .AccountCard {
+    margin: 2rem auto;
+    width: 90%;
+  }
+}
